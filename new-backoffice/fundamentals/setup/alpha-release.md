@@ -19,7 +19,7 @@ The Umbraco UI works in all modern browsers:
   * Linux (Ubuntu, Alpine, CentOS, Debian, Fedora, openSUSE, and other major distributions)
 * One of the following .NET Tools or Editors:
   * ​[Visual Studio Code](https://code.visualstudio.com/) with the [IISExpress extension](https://marketplace.visualstudio.com/items?itemName=warren-buckley.iis-express)​
-  * ​[Microsoft Visual Studio](https://www.visualstudio.com/) 2022 v17.4
+  * ​[Microsoft Visual Studio](https://www.visualstudio.com/) 2022 v17.8 (Preview)
   * ​[JetBrains Rider](https://www.jetbrains.com/rider) **version 2022.3 and higher**
   * .NET Core CLI
 * [.NET 8.0 Preview 7 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
