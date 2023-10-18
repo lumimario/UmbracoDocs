@@ -17,11 +17,11 @@ A Context Token is a context identifier.
 All Umbraco Context APIs have a Context Token which can be imported and used for consumption. Similar to this example:
 
 ```typescript
-import { UMB_NOTIFICATION_CONTEXT } from '@umbraco-cms/backoffice/notification';
+import { UMB_NOTIFICATION_CONTEXT_TOKEN } from '@umbraco-cms/backoffice/notification';
 
 ...
 
-this.consumeContext(UMB_NOTIFICATION_CONTEXT, (context) => {
+this.consumeContext(UMB_NOTIFICATION_CONTEXT_TOKEN, (context) => {
 	// Notice this is a subscription, as the context might change or a new one appears.
 	console.log("I've got the typed context: ", context);
 });
