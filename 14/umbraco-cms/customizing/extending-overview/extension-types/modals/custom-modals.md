@@ -62,9 +62,6 @@ export default class MyDialogElement
     @property({ attribute: false })
     modalContext?: UmbModalContext<MyModalData, MyModalValue>;
 
-    @property({ attribute: false })
-    data?: MyModalData;
-
     private _handleCancel() {
         this.modalContext?.submit();
     }
