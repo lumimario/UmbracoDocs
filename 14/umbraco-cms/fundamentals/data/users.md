@@ -34,7 +34,7 @@ There are default properties on every user that can be defined:
 
 By default, the User Groups available to new users are **Administrators**, **Writers**, **Editors**, **Translators** and **Sensitive Data**.
 
-* **Administrator**: Can do anything when editing nodes in the content section (has all permissions).
+* **Administrator**: Can do anything when editing nodes in the content section (has all permissions). They also can manage other sections of the websites like users, members, templates, content types, data types, and other critical features like adding new hostnames.
 * **Editor**: Allowed to create and publish content items or nodes on the website without approval from others or restrictions (has permissions to **Public Access**, **Rollback**, **Browse Node**, **Create Content Template**, **Delete**, **Create**, **Publish**, **Unpublish**, **Update**, **Copy**, **Move** and **Sort**).
 * **Writer**: Allowed to browse nodes, create nodes, and request for publication of items. Not allowed to publish directly without someone elses approval like an Editor (has permissions to **Browse Node**, **Create**, **Send to Publish** and **Update**).
 * **Translator**: Are used for translating your website. Translators are allowed to browse and update nodes as well as grant dashboard access. Translations of site pages must be reviewed by others before publication (has permissions to **Browse Node** and **Update**).
